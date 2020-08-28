@@ -30,8 +30,10 @@ public class DataChecker {
 
             Arrays.sort(arr);
 //            SelectionSort.sort(arr2);
-            BubbleSort.sort(arr2);
+//            BubbleSort.sort(arr2);
 //            InsertionSort.sort(arr2);
+//            ShellSort.sort(arr2);
+            BetterShellSort.sort(arr2);
 
             for (int i = 0; i < arr2.length; i++) {
                 if (arr[i] != arr2[i]) {
